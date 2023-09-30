@@ -13,69 +13,74 @@
 <body>
     <div class="container">
         <div class="head">Calculator</div>
-        
+
         <div class="display">
-            <input id ="in" type="text" name="display">
+            <input id="in" type="text" name="display">
         </div>
 
-        <div class="number_sign">
-            <div class="number_list">
-                <div class="list_row">
-                    <input type="button" value="1"  onclick="myFunction('1')"> 
-                    <input type="button" value="2"  onclick="myFunction('2')">
-                    <input type="button" value="3"  onclick="myFunction('3')">
-                </div>
+                   <!-- Number list  -->
+        <div class="number_list">
+            <div class="list_row">
+                <input type="button" value="9" onclick="myFunction('9')">
+                <input type="button" value="8" onclick="myFunction('8')">
+                <input type="button" value="7" onclick="myFunction('7')">
+                <input type="button" value="/" onclick="myFunction('/')">
+            </div>
 
-                <div class="list_row">
-                    <input type="button" value="4"  onclick="myFunction('4')">
-                    <input type="button" value="5"  onclick="myFunction('5')">
-                    <input type="button" value="6"  onclick="myFunction('6')">
-                </div>
+            <div class="list_row">
+                <input type="button" value="6" onclick="myFunction('6')">
+                <input type="button" value="5" onclick="myFunction('5')">
+                <input type="button" value="4" onclick="myFunction('4')">
+                <input type="button" value="x" onclick="myFunction('*')">
+            </div>
 
-                <div class="list_row">
-                    <input type="button" value="7"  onclick="myFunction('7')">
-                    <input type="button" value="8"  onclick="myFunction('8')">
-                    <input type="button" value="9"  onclick="myFunction('9')">
-                </div>
-                
-                <div class="list_row">
-                    <input type="reset" value="AC"  onfocus= "clearInput()">
-                    <input type="button" value="0"  onclick="myFunction('0')">
+            <div class="list_row">
+                <input type="button" value="1" onclick="myFunction('1')">
+                <input type="button" value="2" onclick="myFunction('2')">
+                <input type="button" value="3" onclick="myFunction('3')">
+                <input type="button" value="-" onclick="myFunction('-')">
+            </div>
+
+            <div class="list_row">
+                <input type="button" value="." onclick="myFunction('.')">
+                <input type="button" value="0" onclick="myFunction('0')">
+                <input type="button" value="%" onclick="myFunction('%')">
+                <input type="button" value="+" onclick="myFunction('+')">
+            </div>
+
+            <div class="list_row">
+                <div>
+                    <input type="reset" value="AC" onfocus="clearInput()">
                     <input type="button" value="DE" onclick="backSp()">
                 </div>
+                <input id="enter" type="button" value="Enter" onclick="solve()">
             </div>
-            <div class="sign_cal">
-                <div>
-                    <input type="button" value="/"  onclick="myFunction('/')">
-                    <input type="button" value="x"  onclick="myFunction('*')">
-                    <input type="button" value="-"  onclick="myFunction('-')">
-                    <input type="button" value="+"  onclick="myFunction('+')">
-                    <input type="button" value="="  onclick="solve()">
-                </div>
-            </div>
-
         </div>
-        <script>
-           function myFunction(data){
-                 document.getElementById("in").value+=data.toString();
-            }
+    </div>
 
-           function clearInput(){
-      var getValue= document.getElementById("in");
-        if (getValue.value !="") {
-            getValue.value = "";
+                   <!-- js Script -->
+    <script>
+        function myFunction(data) {
+            document.getElementById("in").value += data.toString();
         }
- }
-            function backSp(){
-                document.getElementById("in").value=document.getElementById("in").value.substring(0,document.getElementById("in").value.length-1);
+
+        function clearInput() {
+            var getValue = document.getElementById("in");
+            if (getValue.value != "") {
+                getValue.value = "";
             }
-            function solve(){
-                var a=document.getElementById("in").value;
-                var b=eval(a);
-                document.getElementById("in").value=b;
-            }
-          
-            </script>
+        }
+        
+        function backSp() {
+            document.getElementById("in").value = document.getElementById("in").value.substring(0, document.getElementById("in").value.length - 1);
+        }
+        function solve() {
+            var a = document.getElementById("in").value;
+            var b = eval(a);
+            document.getElementById("in").value = b;
+        }
+
+    </script>
 </body>
 
 </html>
