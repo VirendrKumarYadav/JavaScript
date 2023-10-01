@@ -178,3 +178,5 @@
 // }
 // console.log(subtring("virendra"));
 
+const ss=document.querySelector("input");
+ss.placeholder.innerHTML=subtring("vire overc   Available   Available   Available");

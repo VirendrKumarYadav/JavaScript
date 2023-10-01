@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weak Test 2: onMouseOver</title>
+</head>
+
+<body onmousemove="dimen(event)">
+
+    <div class="container"
+        style="background-color: aqua; height: 100vh; width: 100vw; overflow: hidden; display: flex; justify-content: center; align-items: center; gap:100px;">
+        <label for="" style="text-align: center;">Mouse X Prosition(px)
+            <div class="over_dimen" style="border: 2px solid black; height: 100px; width: 200px; ">
+                <h4 id="x" style="font-size:50px; text-align:center; margin: 10px;  padding-top: 6px;"></h4>
+            </div>
+        </label>
+        <label style="text-align: center;">Mouse Y Prosition(px)
+            <div class="over_dimen" style="border: 2px solid black; height: 100px; width: 200px;">
+                <h4 id="y" style="font-size:50px; text-align:center; margin: 10px; padding-top: 6px;"></h4>
+            </div>
+        </label>
+
+    </div>
+    <script>
+       function dimen(event){
+        let x = event.clientX;
+        let y = event.clientY;
+        console.log(x+""+y);
+            document.getElementById("x").innerText=x;
+            document.getElementById("y").innerText=y;
+        }
+    </script>
+</body>
+
+</html>

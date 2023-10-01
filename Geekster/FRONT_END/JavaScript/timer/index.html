@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1>Timer</h1>
+        </div>
+        <div class="time" style="font-size: larger;">00:00:00 <p style="display: inline; font-size: smaller;">HH:MM:SS
+            </p>
+        </div>
+        <div>
+            <button onclick="startStopWatch()">Start</button>
+            <button>Reset</button>
+            <button>Stop</button>
+            <button>Pause</button>
+        </div>
+    </div>
+<script>
+       let hr=0,min=0,sec=0;
+       setInterval(startStopWatch, 1000); 
+       
+    function startStopWatch() {
+        for ( sec = 0; sec <= 60; sec++) {
+            if (sec==60){
+                min+=1;
+                sec=0; 
+                
+            }
+            
+            if(min==60){
+                hr+=1;
+                min=0;
+            }
+        }
+        document.querySelector(".time").innerHTML = hr+":"+min+":"+sec;
+    }
+
+    
+</script>
+</body>
+
+</html>
