@@ -7,43 +7,62 @@
     <title>Timer</title>
 </head>
 
-<body>
-    <div>
+<body style="height: 100vh; width: 100vw; background-color: rgb(25, 79, 79);">
+    <div >
         <div>
             <h1>Timer</h1>
         </div>
-        <div class="time" style="font-size: larger;">00:00:00 <p style="display: inline; font-size: smaller;">HH:MM:SS
+        <div style="font-size: larger; display: inline; margin-top: 20px; ">
+            <p id="time" >00:00:00 </p>
+            <p style="display: inline; font-size: smaller;">HH:MM:SS
             </p>
         </div>
-        <div>
-            <button onclick="startStopWatch()">Start</button>
-            <button>Reset</button>
-            <button>Stop</button>
-            <button>Pause</button>
+        <div style="margin-top: 20px;">
+            <button onclick="start()">Start</button>
+            <button onclick="reset()">Reset</button>
+            <button onclick="pause()">Pause</button>
+            <button onclick="start()">Play</button>
         </div>
     </div>
-<script>
-       let hr=0,min=0,sec=0;
-       setInterval(startStopWatch, 1000); 
-       
-    function startStopWatch() {
-        for ( sec = 0; sec <= 60; sec++) {
-            if (sec==60){
-                min+=1;
-                sec=0; 
-                
-            }
-            
-            if(min==60){
-                hr+=1;
-                min=0;
-            }
+    <script>
+        
+  let stpWatch=null;
+        let hr = 0, min = 0, sec = 0;
+        function start(){
+            stpWatch=setInterval(startStopWatch, 1000);
         }
-        document.querySelector(".time").innerHTML = hr+":"+min+":"+sec;
-    }
+      function reset(){
+        hr=0;
+        min=0;
+        sec=0;
+        document.getElementById("time").innerText = hr + " : " + min + " : " + sec;
+      }
 
-    
-</script>
+      function pause(){
+        clearInterval(stpWatch);
+      }
+
+        function startStopWatch() {
+            console.log("start buton clicked");
+            sec++;
+            if (sec == 60) {
+                min += 1;
+                sec = 0;
+            }
+
+            if (min == 60) {
+                hr += 1;
+                min = 0;
+            }
+            if (hr == 24) {
+                hr = 0;
+            }
+            document.getElementById("time").innerText = hr + " : " + min + " : " + sec;
+
+        }
+
+
+    </script>
 </body>
 
 </html>
