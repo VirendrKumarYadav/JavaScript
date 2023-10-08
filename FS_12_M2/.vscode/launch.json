@@ -1,0 +1,490 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "weakRow",
+            "request": "launch",
+            "mainClass": "Module2.String.weakRow",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "mergeTwoArray",
+            "request": "launch",
+            "mainClass": "Module2.ArrayList.mergeTwoArray",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "reverseNum",
+            "request": "launch",
+            "mainClass": "Module2.ArrayList.reverseNum",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "bananaChallange",
+            "request": "launch",
+            "mainClass": "Module2.BinarySearch.bananaChallange",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "bananaTest",
+            "request": "launch",
+            "mainClass": "Module2.BinarySearch.bananaTest",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "Module2.BinarySearch.binarySearch",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "lastOccurance",
+            "request": "launch",
+            "mainClass": "Module2.BinarySearch.lastOccurance",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "painterPbl",
+            "request": "launch",
+            "mainClass": "Module2.BinarySearch.painterPbl",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "searchChar",
+            "request": "launch",
+            "mainClass": "Module2.BinarySearch.searchChar",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "squreRoot",
+            "request": "launch",
+            "mainClass": "Module2.BinarySearch.squreRoot",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "Stock1",
+            "request": "launch",
+            "mainClass": "Module2.BoosterQ.Stock1",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "HappyNum",
+            "request": "launch",
+            "mainClass": "Module2.HappyNum",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "matrixROtationCheck",
+            "request": "launch",
+            "mainClass": "Module2.Matrix.matrixROtationCheck",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "test1",
+            "request": "launch",
+            "mainClass": "Module2.Moule1.test1",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "test2",
+            "request": "launch",
+            "mainClass": "Module2.Moule1.test2",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "test3",
+            "request": "launch",
+            "mainClass": "Module2.Moule1.test3",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "test4",
+            "request": "launch",
+            "mainClass": "Module2.Moule1.test4",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "AbleToEat",
+            "request": "launch",
+            "mainClass": "Module2.Queue.AbleToEat",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "firstNegativeInt",
+            "request": "launch",
+            "mainClass": "Module2.Queue.firstNegativeInt",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "furthestHights",
+            "request": "launch",
+            "mainClass": "Module2.Queue.furthestHights",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "implementQueue",
+            "request": "launch",
+            "mainClass": "Module2.Queue.implementQueue",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "mergeSortedArray",
+            "request": "launch",
+            "mainClass": "Module2.Queue.mergeSortedArray",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "prioriQmin",
+            "request": "launch",
+            "mainClass": "Module2.Queue.prioriQmin",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "testJava",
+            "request": "launch",
+            "mainClass": "Module2.Queue.testJava",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Module2.Solution",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "Solution(1)",
+            "request": "launch",
+            "mainClass": "Module2.Stack.Solution",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "astroid",
+            "request": "launch",
+            "mainClass": "Module2.Stack.astroid",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "deleteConsicative",
+            "request": "launch",
+            "mainClass": "Module2.Stack.deleteConsicative",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "facingSun",
+            "request": "launch",
+            "mainClass": "Module2.Stack.facingSun",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "indexFromArray",
+            "request": "launch",
+            "mainClass": "Module2.Stack.indexFromArray",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "postfix",
+            "request": "launch",
+            "mainClass": "Module2.Stack.postfix",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "productLeftRIght",
+            "request": "launch",
+            "mainClass": "Module2.Stack.productLeftRIght",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "sndwithchAndstudant",
+            "request": "launch",
+            "mainClass": "Module2.Stack.sndwithchAndstudant",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "stock_Spanner",
+            "request": "launch",
+            "mainClass": "Module2.Stack.stock_Spanner",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "tempretureIncreseJust",
+            "request": "launch",
+            "mainClass": "Module2.Stack.tempretureIncreseJust",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "validCount",
+            "request": "launch",
+            "mainClass": "Module2.Stack.validCount",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "validParenthesis",
+            "request": "launch",
+            "mainClass": "Module2.Stack.validParenthesis",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "LargetstAreaOfHistrogram",
+            "request": "launch",
+            "mainClass": "Module2.StackJustNextQ.LargetstAreaOfHistrogram",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "nextGreaterElement",
+            "request": "launch",
+            "mainClass": "Module2.StackJustNextQ.nextGreaterElement",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "HW_CountConsecutive_Ones",
+            "request": "launch",
+            "mainClass": "Module2.String.HW_CountConsecutive_Ones",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfString",
+            "request": "launch",
+            "mainClass": "Module2.String.PowerOfString",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "longestPlendromeSubString",
+            "request": "launch",
+            "mainClass": "Module2.String.longestPlendromeSubString",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "plendrome",
+            "request": "launch",
+            "mainClass": "Module2.String.plendrome",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "plendrome1",
+            "request": "launch",
+            "mainClass": "Module2.String.plendrome1",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "anagram",
+            "request": "launch",
+            "mainClass": "Module2.Test.anagram",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "longestPrefix",
+            "request": "launch",
+            "mainClass": "Module2.Test.longestPrefix",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "mame",
+            "request": "launch",
+            "mainClass": "Module2.Test.mame",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "rotationOfString",
+            "request": "launch",
+            "mainClass": "Module2.Test.rotationOfString",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "data",
+            "request": "launch",
+            "mainClass": "Module2.arraySort.data",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "deduplication",
+            "request": "launch",
+            "mainClass": "Module2.arraySort.deduplication",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "sortingWaveForm",
+            "request": "launch",
+            "mainClass": "Module2.arraySort.sortingWaveForm",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "frequencyChar",
+            "request": "launch",
+            "mainClass": "Module2.hashmap.frequencyChar",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "maxNumKeySumPair",
+            "request": "launch",
+            "mainClass": "Module2.hashmap.maxNumKeySumPair",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "oddOccurance",
+            "request": "launch",
+            "mainClass": "Module2.hashmap.oddOccurance",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "lastQ",
+            "request": "launch",
+            "mainClass": "Module2.lastQ",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "shiftRowMatrix",
+            "request": "launch",
+            "mainClass": "Module2.matrixPrec.shiftRowMatrix",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "rekativeRansk",
+            "request": "launch",
+            "mainClass": "Module2.rekativeRansk",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "bubblesort",
+            "request": "launch",
+            "mainClass": "Module2.sorting.bubblesort",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "insersionSort",
+            "request": "launch",
+            "mainClass": "Module2.sorting.insersionSort",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "olampicyard",
+            "request": "launch",
+            "mainClass": "Module2.sorting.olampicyard",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "olympiyardSelection",
+            "request": "launch",
+            "mainClass": "Module2.sorting.olympiyardSelection",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "Module2.sorting.selectionSort",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "spiral_2",
+            "request": "launch",
+            "mainClass": "Module2.spiral_2",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Module2.test",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "ticTocTai",
+            "request": "launch",
+            "mainClass": "Module2.ticTocTai",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "middleind",
+            "request": "launch",
+            "mainClass": "Module2.twopoint.middleind",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "uniqueSum2",
+            "request": "launch",
+            "mainClass": "Module2.twopoint.uniqueSum2",
+            "projectName": "FS_12_M2_39429b7c"
+        },
+        {
+            "type": "java",
+            "name": "mirror",
+            "request": "launch",
+            "mainClass": "mirror",
+            "projectName": "FS_12_M2_39429b7c"
+        }
+    ]
+}

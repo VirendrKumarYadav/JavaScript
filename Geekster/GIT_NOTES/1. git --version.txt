@@ -1,0 +1,11 @@
+1. git --version
+2. ls   show all folder of crt dir
+3. pwd print working dir
+4. cat -for open the file
+5. touch -for make file 
+6. nano -for  view file
+7. mv -for move dir
+8. cd.. strp back one folder
+9. cd~ step back root dir
+10. ls-la show all .file, and hidden file 
+11. 

@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FizzBuzz",
+            "request": "launch",
+            "mainClass": "FizzBuzz",
+            "projectName": "Day13_d1436e0c"
+        },
+        {
+            "type": "java",
+            "name": "Jumping",
+            "request": "launch",
+            "mainClass": "Jumping",
+            "projectName": "Day13_d1436e0c"
+        },
+        {
+            "type": "java",
+            "name": "nth_Fibnosci",
+            "request": "launch",
+            "mainClass": "nth_Fibnosci",
+            "projectName": "Day13_d1436e0c"
+        },
+        {
+            "type": "java",
+            "name": "secoundHighest",
+            "request": "launch",
+            "mainClass": "secoundHighest",
+            "projectName": "Day13_d1436e0c"
+        },
+        {
+            "type": "java",
+            "name": "solution",
+            "request": "launch",
+            "mainClass": "solution",
+            "projectName": "Day13_d1436e0c"
+        }
+    ]
+}
